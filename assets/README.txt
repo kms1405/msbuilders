@@ -1,0 +1,1 @@
+Add your own construction site photos here as site-01.jpg through site-06.jpg. See the main README.md for details.
