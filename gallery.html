@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Photos and videos from our home construction site.">
+  <title>Our Construction Journey | Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">⌂</span><span>BUILD<span class="brand-accent">LOG</span><small>OUR CONSTRUCTION JOURNEY</small></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav"><a href="index.html">Home</a><a class="active" href="gallery.html">Gallery</a><a class="nav-cta" href="index.html#contact">Contact us <span>↗</span></a></nav>
+  </header>
+
+  <main>
+    <section class="gallery-hero">
+      <div class="section-wrap gallery-hero-content"><p class="eyebrow light">THE STORY IN PICTURES</p><h1>Progress worth<br><span>looking back on.</span></h1><p>Snapshots, site updates and videos — a visual diary of every step towards home.</p><div class="gallery-stats"><div><strong>01</strong><span>OUR BUILD</span></div><div><strong>∞</strong><span>MEMORIES</span></div></div></div>
+    </section>
+
+    <section class="section-wrap gallery-main">
+      <div class="section-heading gallery-heading"><div><p class="eyebrow">SITE PHOTOGRAPHS</p><h2>Moments on site.</h2></div><p class="muted">Replace the sample image tiles with your own construction photos. Keep the filenames listed below to make updating easy.</p></div>
+      <div class="filter-row" role="group" aria-label="Filter gallery photos">
+        <button class="filter-button active" data-filter="all">All photos</button><button class="filter-button" data-filter="planning">Planning</button><button class="filter-button" data-filter="foundation">Foundation</button><button class="filter-button" data-filter="structure">Structure</button><button class="filter-button" data-filter="progress">Progress</button>
+      </div>
+      <div class="photo-grid">
+        <figure class="photo-card photo-large" data-category="planning"><img src="assets/site-01.jpg" alt="Construction site planning" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="photo-placeholder"><span>01</span><strong>Planning the dream</strong><small>Add: assets/site-01.jpg</small></div><figcaption><span>01 / PLANNING</span><strong>The beginning</strong></figcaption></figure>
+        <figure class="photo-card" data-category="foundation"><img src="assets/site-02.jpg" alt="Foundation work" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="photo-placeholder"><span>02</span><strong>Building the base</strong><small>Add: assets/site-02.jpg</small></div><figcaption><span>02 / FOUNDATION</span><strong>Strong from below</strong></figcaption></figure>
+        <figure class="photo-card" data-category="foundation"><img src="assets/site-03.jpg" alt="Footing and foundation progress" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="photo-placeholder"><span>03</span><strong>Foundation progress</strong><small>Add: assets/site-03.jpg</small></div><figcaption><span>03 / FOUNDATION</span><strong>Taking shape</strong></figcaption></figure>
+        <figure class="photo-card" data-category="structure"><img src="assets/site-04.jpg" alt="Columns and structural work" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="photo-placeholder"><span>04</span><strong>Rising structure</strong><small>Add: assets/site-04.jpg</small></div><figcaption><span>04 / STRUCTURE</span><strong>Upward and onward</strong></figcaption></figure>
+        <figure class="photo-card" data-category="progress"><img src="assets/site-05.jpg" alt="Construction progress" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="photo-placeholder"><span>05</span><strong>Site progress</strong><small>Add: assets/site-05.jpg</small></div><figcaption><span>05 / PROGRESS</span><strong>One step at a time</strong></figcaption></figure>
+        <figure class="photo-card" data-category="progress"><img src="assets/site-06.jpg" alt="Latest construction update" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="photo-placeholder"><span>06</span><strong>Latest update</strong><small>Add: assets/site-06.jpg</small></div><figcaption><span>06 / PROGRESS</span><strong>More to come</strong></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="video-section">
+      <div class="section-wrap">
+        <div class="section-heading"><div><p class="eyebrow light">WATCH THE JOURNEY</p><h2>More than a photograph.</h2></div><p class="video-intro">Play our construction updates and relive the progress in motion.</p></div>
+        <div class="video-grid">
+          <article class="video-card"><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID_1" title="Construction site video 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><div class="video-placeholder"><span>▶</span><strong>Construction update 01</strong><small>Replace VIDEO_ID_1 in gallery.html</small></div></div><div class="video-meta"><span>VIDEO 01</span><h3>Site update</h3></div></article>
+          <article class="video-card"><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID_2" title="Construction site video 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><div class="video-placeholder"><span>▶</span><strong>Construction update 02</strong><small>Replace VIDEO_ID_2 in gallery.html</small></div></div><div class="video-meta"><span>VIDEO 02</span><h3>Progress in motion</h3></div></article>
+        </div>
+        <p class="video-help">To add a YouTube video, copy the ID from its URL. For example, in <code>youtube.com/watch?v=AbCd1234</code>, the video ID is <code>AbCd1234</code>. Replace VIDEO_ID_1 or VIDEO_ID_2 in the iframe URL.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand footer-brand" href="index.html"><span class="brand-mark">⌂</span><span>BUILD<span class="brand-accent">LOG</span><small>OUR CONSTRUCTION JOURNEY</small></span></a><p>Made with care, one brick at a time.</p><span>© <span id="year"></span> Our Construction Journey</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
